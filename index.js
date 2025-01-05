@@ -10,6 +10,10 @@ app.get("/",(req, resp)=>{
 })
 
 
-app.listen(5000, ()=>{
+app.listen(5000, test)
+
+
+function test(){
     console.log("5000 port working")
-})
+    console.log("5001 port working")
+}
